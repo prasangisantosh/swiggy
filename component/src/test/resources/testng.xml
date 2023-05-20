@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Siddhi-Execution-$classNameOfSink.substring(0, $stringLength)-Test-Suite">
+    <test name="Siddhi-execution-santu-tests" enabled="true" preserve-order="true" parallel="false">
+        <classes>
+            <class name="job..war.aggregate.TestCaseOfSantuAggregateFunction"/>
+            <class name="job..war.function.TestCaseOfSantuFunction"/>
+            <class name="job..war.streamfunction.TestCaseOfSantuStreamFunction"/>
+            <class name="job..war.streamprocessor.TestCaseOfSantuStreamProcessor"/>
+            <class name="job..war.window.TestCaseOfSantuWindow"/>
+        </classes>
+    </test>
+</suite>
